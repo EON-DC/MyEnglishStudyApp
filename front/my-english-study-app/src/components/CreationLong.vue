@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <div class="sm-title">{{ smTitle }}</div>
+  <div class="row p-2">
+    <div class="sm-title">example</div>
     <div class="row">
       <div class="col-9">
         <div>
           <input
-            class="input-text"
-            v-model="firstData"
-            :placeholder="'add ' + firstInput"
+            class="input-text long"
+            v-model="example"
+            placeholder="add example"
           />
           <input
             class="input-text"
-            v-model="secondData"
-            :placeholder="'add ' + secondInput"
+            v-model="word_id"
+            placeholder="add word_id"
           />
         </div>
       </div>
