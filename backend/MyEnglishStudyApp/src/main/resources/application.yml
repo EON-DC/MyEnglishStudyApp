@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.PostgreSQL15Dialect
+      format_sql: true
+    show-sql: true
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/enstudy
+    username: gwang
+    password: password
+
+
